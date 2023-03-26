@@ -1,9 +1,8 @@
 import requests
 import json
-import logging
 from pydantic import BaseModel
 import time
-from config import config
+from settings.config import config
 import logging
 
 log = logging.getLogger(__name__)

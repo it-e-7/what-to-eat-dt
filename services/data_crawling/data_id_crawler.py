@@ -7,7 +7,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import ElementNotInteractableException
 from bs4 import BeautifulSoup
 from typing import List, Dict
-
+from typing import Optional
 from geopy.geocoders import Nominatim
 
 class DataIdCrawler(): # id값들을 반환할 것! + nominatim util 로 전환
